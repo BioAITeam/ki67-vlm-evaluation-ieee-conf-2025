@@ -1,0 +1,141 @@
+
+===== 0.jpg =====
+Response time: 2.80 seconds
+Tokens input: 1399, output: 62, total: 1461
+Positive cells: 27, negative cells: 43
+Ki-67 Index: 38.57%
+--------------------------------------------------
+Immunopositive cells: 27  
+Immunonegative cells: 43  
+Ki-67 Index = (27 / (27 + 43)) x 100 = (27 / 70) x 100 = 38.57%
+
+Ki-67 Index: 38.57%
+================================================================================
+
+===== 1.jpg =====
+Response time: 1.85 seconds
+Tokens input: 1399, output: 70, total: 1469
+Positive cells: 0, negative cells: 0
+Ki-67 Index: 30.00%
+--------------------------------------------------
+Immunopositive cells (brown nuclear staining): 18  
+Immunonegative cells (no brown staining): 42  
+
+Ki-67 Index = (18 / (18 + 42)) x 100 = (18 / 60) x 100 = 30.00%
+
+Ki-67 Index: 30.00%
+================================================================================
+
+===== 10.jpg =====
+Response time: 1.47 seconds
+Tokens input: 1399, output: 62, total: 1461
+Positive cells: 22, negative cells: 18
+Ki-67 Index: 55.00%
+--------------------------------------------------
+Immunopositive cells: 22  
+Immunonegative cells: 18  
+Ki-67 Index = (22 / (22 + 18)) x 100 = (22 / 40) x 100 = 55.00%
+
+Ki-67 Index: 55.00%
+================================================================================
+
+===== 100.jpg =====
+Response time: 1.46 seconds
+Tokens input: 1399, output: 70, total: 1469
+Positive cells: 0, negative cells: 0
+Ki-67 Index: 58.00%
+--------------------------------------------------
+Immunopositive cells (brown nuclear staining): 58  
+Immunonegative cells (no brown staining): 42  
+
+Ki-67 Index = (58 / (58 + 42)) x 100 = (58 / 100) x 100 = 58.00%
+
+Ki-67 Index: 58.00%
+================================================================================
+
+===== 101.jpg =====
+Response time: 1.69 seconds
+Tokens input: 1399, output: 62, total: 1461
+Positive cells: 63, negative cells: 37
+Ki-67 Index: 63.00%
+--------------------------------------------------
+Immunopositive cells: 63  
+Immunonegative cells: 37  
+Ki-67 Index = (63 / (63 + 37)) x 100 = (63 / 100) x 100 = 63.00%
+
+Ki-67 Index: 63.00%
+================================================================================
+
+===== 102.jpg =====
+Response time: 2.15 seconds
+Tokens input: 1399, output: 62, total: 1461
+Positive cells: 52, negative cells: 18
+Ki-67 Index: 74.29%
+--------------------------------------------------
+Immunopositive cells: 52  
+Immunonegative cells: 18  
+Ki-67 Index = (52 / (52 + 18)) x 100 = (52 / 70) x 100 = 74.29%
+
+Ki-67 Index: 74.29%
+================================================================================
+
+===== 103.jpg =====
+Response time: 1.65 seconds
+Tokens input: 1399, output: 62, total: 1461
+Positive cells: 48, negative cells: 22
+Ki-67 Index: 68.57%
+--------------------------------------------------
+Immunopositive cells: 48  
+Immunonegative cells: 22  
+Ki-67 Index = (48 / (48 + 22)) x 100 = (48 / 70) x 100 = 68.57%
+
+Ki-67 Index: 68.57%
+================================================================================
+
+===== 104.jpg =====
+Response time: 3.52 seconds
+Tokens input: 1399, output: 159, total: 1558
+Positive cells: 52, negative cells: 18
+Ki-67 Index: 74.29%
+--------------------------------------------------
+The image shows breast tissue with cells stained for Ki-67. The brown nuclear staining indicates Ki-67 positive cells, while the lighter or unstained nuclei represent Ki-67 negative cells.
+
+After careful examination and counting:
+
+- Immunopositive cells (brown-stained nuclei): 52  
+- Immunonegative cells (unstained or lightly stained nuclei): 18  
+
+Calculation:  
+Ki-67 Index = (52 / (52 + 18)) × 100 = (52 / 70) × 100 ≈ 74.29%
+
+Immunopositive cells: 52  
+Immunonegative cells: 18  
+Ki-67 Index = (52 / (52 + 18)) × 100  
+Ki-67 Index: 74.29%
+================================================================================
+
+===== 105.jpg =====
+Response time: 1.80 seconds
+Tokens input: 1399, output: 62, total: 1461
+Positive cells: 44, negative cells: 14
+Ki-67 Index: 75.86%
+--------------------------------------------------
+Immunopositive cells: 44  
+Immunonegative cells: 14  
+Ki-67 Index = (44 / (44 + 14)) x 100 = (44 / 58) x 100 = 75.86%
+
+Ki-67 Index: 75.86%
+================================================================================
+
+===== 106.jpg =====
+Response time: 2.29 seconds
+Tokens input: 1399, output: 63, total: 1462
+Positive cells: 26, negative cells: 14
+Ki-67 Index: 65.00%
+--------------------------------------------------
+Immunopositive cells: 26  
+Immunonegative cells: 14  
+Ki-67 Index = (26 / (26 + 14)) x 100 = (26 / 40) x 100 = 65.00%  
+
+Ki-67 Index: 65.00%
+================================================================================

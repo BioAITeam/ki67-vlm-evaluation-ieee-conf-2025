@@ -1,0 +1,125 @@
+
+===== 0.jpg =====
+Response time: 6.67 seconds
+Tokens input: 1515, output: 53, total: 1568
+Positive cells: 27, negative cells: 56
+Ki-67 Index: 32.53%
+--------------------------------------------------
+Immunopositive cells: 27  
+Immunonegative cells: 56  
+Ki-67 Index: (27 / (27 + 56)) x 100 = 32.53%  
+
+Ki-67 Index: 32.53%
+================================================================================
+
+===== 1.jpg =====
+Response time: 5.42 seconds
+Tokens input: 1515, output: 47, total: 1562
+Positive cells: 13, negative cells: 47
+Ki-67 Index: 21.67%
+--------------------------------------------------
+Immunopositive cells: 13  
+Immunonegative cells: 47  
+Ki-67 Index = (13 / (13 + 47)) x 100  
+Ki-67 Index: 21.67%
+================================================================================
+
+===== 10.jpg =====
+Response time: 5.15 seconds
+Tokens input: 1515, output: 47, total: 1562
+Positive cells: 20, negative cells: 26
+Ki-67 Index: 43.48%
+--------------------------------------------------
+Immunopositive cells: 20  
+Immunonegative cells: 26  
+Ki-67 Index = (20 / (20 + 26)) x 100  
+Ki-67 Index: 43.48%
+================================================================================
+
+===== 100.jpg =====
+Response time: 4.60 seconds
+Tokens input: 1515, output: 47, total: 1562
+Positive cells: 62, negative cells: 66
+Ki-67 Index: 48.44%
+--------------------------------------------------
+Immunopositive cells: 62  
+Immunonegative cells: 66  
+Ki-67 Index = (62 / (62 + 66)) x 100  
+Ki-67 Index: 48.44%
+================================================================================
+
+===== 101.jpg =====
+Response time: 5.28 seconds
+Tokens input: 1515, output: 47, total: 1562
+Positive cells: 68, negative cells: 15
+Ki-67 Index: 81.93%
+--------------------------------------------------
+Immunopositive cells: 68  
+Immunonegative cells: 15  
+Ki-67 Index = (68 / (68 + 15)) x 100  
+Ki-67 Index: 81.93%
+================================================================================
+
+===== 102.jpg =====
+Response time: 5.43 seconds
+Tokens input: 1515, output: 47, total: 1562
+Positive cells: 42, negative cells: 13
+Ki-67 Index: 76.36%
+--------------------------------------------------
+Immunopositive cells: 42  
+Immunonegative cells: 13  
+Ki-67 Index = (42 / (42 + 13)) x 100  
+Ki-67 Index: 76.36%
+================================================================================
+
+===== 103.jpg =====
+Response time: 5.36 seconds
+Tokens input: 1515, output: 47, total: 1562
+Positive cells: 56, negative cells: 17
+Ki-67 Index: 76.71%
+--------------------------------------------------
+Immunopositive cells: 56  
+Immunonegative cells: 17  
+Ki-67 Index = (56 / (56 + 17)) x 100  
+Ki-67 Index: 76.71%
+================================================================================
+
+===== 104.jpg =====
+Response time: 4.61 seconds
+Tokens input: 1515, output: 53, total: 1568
+Positive cells: 64, negative cells: 3
+Ki-67 Index: 95.52%
+--------------------------------------------------
+Immunopositive cells: 64  
+Immunonegative cells: 3  
+Ki-67 Index: (64 / (64 + 3)) x 100 = 95.52%  
+Ki-67 Index: 95.52%
+================================================================================
+
+===== 105.jpg =====
+Response time: 7.17 seconds
+Tokens input: 1515, output: 73, total: 1588
+Positive cells: 47, negative cells: 24
+Ki-67 Index: 66.20%
+--------------------------------------------------
+Immunopositive cells: 47  
+Immunonegative cells: 24  
+
+Ki-67 Index = (47 / (47 + 24)) x 100  
+Ki-67 Index = (47 / 71) x 100  
+Ki-67 Index = 66.20%  
+
+Ki-67 Index: 66.20%
+================================================================================
+
+===== 106.jpg =====
+Response time: 4.74 seconds
+Tokens input: 1515, output: 47, total: 1562
+Positive cells: 22, negative cells: 13
+Ki-67 Index: 62.86%
+--------------------------------------------------
+Immunopositive cells: 22  
+Immunonegative cells: 13  
+Ki-67 Index = (22 / (22 + 13)) x 100  
+Ki-67 Index: 62.86%
+================================================================================

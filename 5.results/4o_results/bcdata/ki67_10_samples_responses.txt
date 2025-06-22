@@ -1,0 +1,140 @@
+
+===== 0.jpg =====
+Response time: 3.63 seconds
+Tokens input: 1515, output: 47, total: 1562
+Positive cells: 18, negative cells: 12
+Ki-67 Index: 60.00%
+--------------------------------------------------
+Immunopositive cells: 18  
+Immunonegative cells: 12  
+
+Ki-67 Index = (18 / (18 + 12)) x 100
+
+Ki-67 Index: 60.00%
+================================================================================
+
+===== 1.jpg =====
+Response time: 3.09 seconds
+Tokens input: 1515, output: 52, total: 1567
+Positive cells: 9, negative cells: 21
+Ki-67 Index: 30.00%
+--------------------------------------------------
+Immunopositive cells: 9  
+Immunonegative cells: 21  
+
+Ki-67 Index: (9 / (9 + 21)) x 100 = 30.00%
+
+Ki-67 Index: 30.00%
+================================================================================
+
+===== 10.jpg =====
+Response time: 2.31 seconds
+Tokens input: 1515, output: 53, total: 1568
+Positive cells: 12, negative cells: 8
+Ki-67 Index: 60.00%
+--------------------------------------------------
+Immunopositive cells: 12  
+Immunonegative cells: 8  
+
+Ki-67 Index: (12 / (12 + 8)) x 100 = 60.00%  
+
+Ki-67 Index: 60.00%
+================================================================================
+
+===== 100.jpg =====
+Response time: 3.17 seconds
+Tokens input: 1515, output: 53, total: 1568
+Positive cells: 58, negative cells: 42
+Ki-67 Index: 58.00%
+--------------------------------------------------
+Immunopositive cells: 58  
+Immunonegative cells: 42  
+
+Ki-67 Index: (58 / (58 + 42)) x 100 = 58.00%  
+
+Ki-67 Index: 58.00%
+================================================================================
+
+===== 101.jpg =====
+Response time: 2.83 seconds
+Tokens input: 1515, output: 57, total: 1572
+Positive cells: 45, negative cells: 5
+Ki-67 Index: 90.00%
+--------------------------------------------------
+Immunopositive cells: 45  
+Immunonegative cells: 5  
+
+Ki-67 Index: \(\frac{45}{45 + 5} \times 100 = 90.00\%\)
+
+Ki-67 Index: 90.00%
+================================================================================
+
+===== 102.jpg =====
+Response time: 2.81 seconds
+Tokens input: 1515, output: 57, total: 1572
+Positive cells: 45, negative cells: 5
+Ki-67 Index: 90.00%
+--------------------------------------------------
+Immunopositive cells: 45  
+Immunonegative cells: 5  
+
+Ki-67 Index: \(\frac{45}{45 + 5} \times 100 = 90.00\%\)
+
+Ki-67 Index: 90.00%
+================================================================================
+
+===== 103.jpg =====
+Response time: 3.23 seconds
+Tokens input: 1515, output: 57, total: 1572
+Positive cells: 34, negative cells: 16
+Ki-67 Index: 68.00%
+--------------------------------------------------
+Immunopositive cells: 34  
+Immunonegative cells: 16  
+
+Ki-67 Index: \(\frac{34}{34 + 16} \times 100 = 68.00\%\)
+
+Ki-67 Index: 68.00%
+================================================================================
+
+===== 104.jpg =====
+Response time: 5.28 seconds
+Tokens input: 1515, output: 53, total: 1568
+Positive cells: 45, negative cells: 5
+Ki-67 Index: 90.00%
+--------------------------------------------------
+Immunopositive cells: 45  
+Immunonegative cells: 5  
+
+Ki-67 Index: (45 / (45 + 5)) x 100 = 90.00%  
+
+Ki-67 Index: 90.00%
+================================================================================
+
+===== 105.jpg =====
+Response time: 2.18 seconds
+Tokens input: 1515, output: 57, total: 1572
+Positive cells: 38, negative cells: 2
+Ki-67 Index: 95.00%
+--------------------------------------------------
+Immunopositive cells: 38  
+Immunonegative cells: 2  
+
+Ki-67 Index: \(\frac{38}{38 + 2} \times 100 = 95.00\%\)
+
+Ki-67 Index: 95.00%
+================================================================================
+
+===== 106.jpg =====
+Response time: 3.12 seconds
+Tokens input: 1515, output: 53, total: 1568
+Positive cells: 18, negative cells: 7
+Ki-67 Index: 72.00%
+--------------------------------------------------
+Immunopositive cells: 18  
+Immunonegative cells: 7  
+
+Ki-67 Index: (18 / (18 + 7)) x 100 = 72.00%  
+
+Ki-67 Index: 72.00%
+================================================================================
