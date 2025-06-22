@@ -99,9 +99,7 @@ python 2.preprocess/1.convert_images.py <images_src> <processed_dataset>
 
 example
 ```bash
-python 2.preprocess/1.convert_images.py \
-  1.data_access/data_sample/1.images/test \
-  1.data_access/data_sample/3.data_processed
+python 2.preprocess/1.convert_images.py 1.data_access/data_sample/1.images/test 1.data_access/data_sample/3.data_processed
 ```
 
 This script handles the source and destination paths internally.
@@ -134,10 +132,7 @@ python 2.preprocess/2.generate_json.py <positive_dir> <negative_dir> <processed_
 
 example
 ```bash
-python 2.preprocess/2.generate_json.py \
-  1.data_access/data_sample/2.annotations/test/positive \
-  1.data_access/data_sample/2.annotations/test/negative \
-  1.data_access/data_sample/3.data_processed
+python 2.preprocess/2.generate_json.py 1.data_access/data_sample/2.annotations/test/positive 1.data_access/data_sample/2.annotations/test/negative 1.data_access/data_sample/3.data_processed
 ```
 
 Upon successful execution of both 1.convert_images.py and 2.generate_json.py, all processed images (in JPG format) and their corresponding JSON annotation files will be placed together in a single output folder, effectively creating your processed dataset.
@@ -164,9 +159,7 @@ python 3.vlm_processing/1.main_openai.py <processed_dataset> [<output_parent_dir
 
 example  
 ```bash
-python 3.vlm_processing/1.main_openai.py \
-  1.data_access/data_sample/3.data_processed \
-  5.results
+python 3.vlm_processing/1.main_openai.py 1.data_access/data_sample/3.data_processed 5.results
 ```
 
 To run the VLM processing for a single image, execute the 2.ki67_single_image.py script, providing the path to image file:
@@ -178,8 +171,7 @@ python 3.vlm_processing/2.ki67_single_image.py <image_path>
 
 example  
 ```bash
-python 3.vlm_processing/2.ki67_single_image.py \
-  1.data_access/data_sample/3.data_processed/8.jpg
+python 3.vlm_processing/2.ki67_single_image.py 1.data_access/data_sample/3.data_processed/8.jpg
 ```
 
 ## 4. Utilities
@@ -243,9 +235,7 @@ Here's a breakdown of the available utility scripts:
 
   example  
   ```bash
-  python 4.utils/calculate_time_average.py \
-    1.data_access/data_sample/3.data_processed \
-    5.results
+  python 4.utils/calculate_time_average.py 1.data_access/data_sample/3.data_processed 5.results
   ```
 
 - ### `check_duplicates_in_csv.py`
@@ -293,9 +283,7 @@ Here's a breakdown of the available utility scripts:
 
   example  
   ```bash
-  python 4.utils/compare_txt_vs_csv.py \
-    5.results/4.5/bcdata/ki67_results.csv \
-    5.results/4.5/bcdata/llm_responses.txt
+  python 4.utils/compare_txt_vs_csv.py 5.results/4.5/bcdata/ki67_results.csv 5.results/4.5/bcdata/llm_responses.txt
   ```
 
 - ### `count_jsons.py`
@@ -326,10 +314,7 @@ Here's a breakdown of the available utility scripts:
 
   example  
   ```bash
-  python 4.utils/fill_csv_from_txt.py \
-    5.results/4.5/bcdata/ki67_results.csv \
-    5.results/4.5/bcdata/llm_responses.txt \
-    1.data_access/data_sample/3.data_processed
+  python 4.utils/fill_csv_from_txt.py 5.results/4.5/bcdata/ki67_results.csv 5.results/4.5/bcdata/llm_responses.txt 1.data_access/data_sample/3.data_processed
   ```
 
 - ### `plot_multiple_models.py`
@@ -345,11 +330,7 @@ Here's a breakdown of the available utility scripts:
 
   example (runs the comparison for four stored models)  
   ```bash
-  python 4.utils/plot_multiple_models.py \
-    5.results/4.5/bcdata/ki67_results.csv \
-    5.results/gpt-4.1-mini-2025-04-14_results/bcdata/ki67_results.csv \
-    5.results/gpt-4.1-2025-04-14_results/bcdata/ki67_results.csv \
-    5.results/4o_results/bcdata/ki67_results.csv
+  python 4.utils/plot_multiple_models.py 5.results/4.5/bcdata/ki67_results.csv 5.results/gpt-4.1-mini-2025-04-14_results/bcdata/ki67_results.csv 5.results/gpt-4.1-2025-04-14_results/bcdata/ki67_results.csv 5.results/4o_results/bcdata/ki67_results.csv
   ```
 
   *(If you call the script **without arguments** it will fall back to that same default list.)*
@@ -383,9 +364,7 @@ Here's a breakdown of the available utility scripts:
 
   example  
   ```bash
-  python 4.utils/verify_images_in_csv.py \
-    1.data_access/data_sample/3.data_processed \
-    5.results/4.5/bcdata/ki67_results.csv
+  python 4.utils/verify_images_in_csv.py 1.data_access/data_sample/3.data_processed 5.results/4.5/bcdata/ki67_results.csv
   ```
 
 ## 5. Results
